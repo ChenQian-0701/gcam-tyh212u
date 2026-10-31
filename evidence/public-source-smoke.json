@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-31",
+  "cold_launches_alive_after_6s": 3,
+  "cold_launch_attempts": 3,
+  "same_session_jpeg_saves": 2,
+  "capture_attempts": 2,
+  "observed_save_after_s": [
+    7.02,
+    8.05
+  ],
+  "profile_verified_log_count": 3,
+  "uniform_frames_in_log": [
+    6,
+    6
+  ],
+  "actual_recorded_plan_exp_ms": [
+    80,
+    80
+  ],
+  "actual_recorded_plan_analog_gain": [
+    16,
+    16
+  ],
+  "rollback_original_module_sha256_verified": true,
+  "runtime_properties_restored": true,
+  "initial_sleep_state_restored": true,
+  "scene": "Very close/obscured static surface; this smoke test is not image-quality validation",
+  "limits": [
+    "No moving subjects, front camera, video, bright-to-dark AE recovery or long-run test",
+    "Save detection time includes one-second polling and command overhead",
+    "No actual per-frame exposure/result audit in this smoke test"
+  ]
+}
