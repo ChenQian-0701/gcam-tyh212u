@@ -1,0 +1,23 @@
+# Generated binaries and private signing materials
+.build/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+*.apk
+*.jar
+*.so
+*.p12
+*.jks
+*.keystore
+*.key
+*.pem
+*.p8
+*.pfx
+.env
+.env.*
+local.properties
+private/
+local-data/
+*.log
+.DS_Store
