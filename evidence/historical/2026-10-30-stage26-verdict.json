@@ -1,0 +1,40 @@
+{
+  "enhanced": {
+    "success": 6,
+    "expected": 6,
+    "elapsed_s": [
+      10.94,
+      8.88,
+      8.86,
+      8.89,
+      12.79,
+      18.97
+    ]
+  },
+  "off": {
+    "success": 2,
+    "expected": 2,
+    "elapsed_s": [
+      4.47,
+      4.55
+    ]
+  },
+  "launch": {
+    "success": 5,
+    "expected": 5
+  },
+  "standard": {
+    "captured": 1,
+    "shutter_recovered": 0,
+    "note": "initial script error=null does not indicate success; UI remained disabled after 93.17 s"
+  },
+  "enhanced_restart": {
+    "success": 2,
+    "expected": 2,
+    "elapsed_s": [
+      10.83,
+      8.92
+    ]
+  },
+  "installed_apk_matches": true
+}
