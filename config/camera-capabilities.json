@@ -1,0 +1,596 @@
+{
+  "model": "TYH212U",
+  "build": "11Q",
+  "source": "adb shell dumpsys media.camera",
+  "public_camera_ids": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "provider_interfaces": [
+    {
+      "id": "0",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        4000,
+        3000
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "1",
+      "facing": "Front",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        3264,
+        2448
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "2",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE MONOCHROME",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        1600,
+        1200
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "3",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        1600,
+        1200
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "17",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        1920,
+        1080
+      ],
+      "raw_sizes": [
+        [
+          1920,
+          1080
+        ],
+        [
+          1440,
+          1080
+        ],
+        [
+          960,
+          720
+        ],
+        [
+          640,
+          480
+        ]
+      ]
+    },
+    {
+      "id": "20",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        4000,
+        3000
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "21",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        4000,
+        3000
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "23",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        3264,
+        2448
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "24",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        3264,
+        2448
+      ],
+      "raw_sizes": [
+        [
+          3264,
+          2448
+        ],
+        [
+          960,
+          720
+        ],
+        [
+          320,
+          240
+        ]
+      ]
+    },
+    {
+      "id": "27",
+      "facing": "Front",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        2592,
+        1944
+      ],
+      "raw_sizes": [
+        [
+          2592,
+          1944
+        ],
+        [
+          960,
+          720
+        ],
+        [
+          320,
+          240
+        ]
+      ]
+    },
+    {
+      "id": "30",
+      "facing": "Front",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        3264,
+        2448
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "31",
+      "facing": "Front",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        3264,
+        2448
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "32",
+      "facing": "Front",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        3264,
+        2448
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "33",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        4000,
+        3000
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "36",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        4000,
+        3000
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "37",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        8000,
+        6000
+      ],
+      "raw_sizes": [
+        [
+          8000,
+          6000
+        ],
+        [
+          1440,
+          1080
+        ]
+      ]
+    },
+    {
+      "id": "38",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        3264,
+        2448
+      ],
+      "raw_sizes": [
+        [
+          3264,
+          2448
+        ],
+        [
+          960,
+          720
+        ],
+        [
+          320,
+          240
+        ]
+      ]
+    },
+    {
+      "id": "39",
+      "facing": "Front",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        6528,
+        4896
+      ],
+      "raw_sizes": [
+        [
+          6528,
+          4896
+        ],
+        [
+          1440,
+          1080
+        ]
+      ]
+    },
+    {
+      "id": "42",
+      "facing": "Front",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        2592,
+        1944
+      ],
+      "raw_sizes": [
+        [
+          2592,
+          1944
+        ],
+        [
+          960,
+          720
+        ],
+        [
+          320,
+          240
+        ]
+      ]
+    },
+    {
+      "id": "46",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        4000,
+        3000
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "47",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        4000,
+        3000
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "48",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        4000,
+        3000
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "51",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        4000,
+        3000
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "52",
+      "facing": "Front",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        2592,
+        1944
+      ],
+      "raw_sizes": [
+        [
+          2592,
+          1944
+        ],
+        [
+          1920,
+          1080
+        ],
+        [
+          960,
+          720
+        ],
+        [
+          1280,
+          720
+        ],
+        [
+          720,
+          480
+        ],
+        [
+          320,
+          240
+        ]
+      ]
+    },
+    {
+      "id": "53",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        3264,
+        2448
+      ],
+      "raw_sizes": [
+        [
+          3264,
+          2448
+        ],
+        [
+          1920,
+          1080
+        ],
+        [
+          960,
+          720
+        ],
+        [
+          1280,
+          720
+        ],
+        [
+          720,
+          480
+        ],
+        [
+          320,
+          240
+        ]
+      ]
+    },
+    {
+      "id": "54",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        4000,
+        3000
+      ],
+      "raw_sizes": []
+    },
+    {
+      "id": "55",
+      "facing": "Back",
+      "level": "LIMITED",
+      "capabilities": "BACKWARD_COMPATIBLE BURST_CAPTURE CONSTRAINED_HIGH_SPEED_VIDEO",
+      "output_formats": [
+        33,
+        34,
+        35
+      ],
+      "max_yuv": [
+        4000,
+        3000
+      ],
+      "raw_sizes": []
+    }
+  ],
+  "notes": [
+    "27 provider interfaces do not imply 27 physical cameras.",
+    "No listed interface advertises RAW capability; some hidden interfaces list RAW_SENSOR output formats, which are unverified for ordinary app access.",
+    "Public ID 0 exposes YUV_420_888 (35), PRIVATE (34), and BLOB/JPEG transport (33); no RAW outputs."
+  ]
+}
