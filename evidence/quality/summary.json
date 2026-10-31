@@ -1,0 +1,211 @@
+{
+  "scope": "SDR primary JPEG; user-labelled modes; one static scene",
+  "count_per_group": 10,
+  "primary_pairs": "3-10",
+  "exposure_s": 0.05,
+  "iso_ranges": {
+    "off": [
+      929,
+      945
+    ],
+    "enhanced": [
+      930,
+      949
+    ]
+  },
+  "regions": {
+    "palm_light": {
+      "box": [
+        1150,
+        800,
+        1500,
+        1100
+      ],
+      "context": [
+        900,
+        450,
+        1980,
+        1340
+      ]
+    },
+    "palm_mid": {
+      "box": [
+        1650,
+        850,
+        1900,
+        1150
+      ],
+      "context": [
+        900,
+        450,
+        1980,
+        1340
+      ]
+    },
+    "touchpad_dark": {
+      "box": [
+        2350,
+        850,
+        2800,
+        1150
+      ],
+      "context": [
+        1900,
+        450,
+        3700,
+        1350
+      ]
+    },
+    "speaker_plain": {
+      "box": [
+        1050,
+        1820,
+        1550,
+        1950
+      ],
+      "context": [
+        450,
+        1400,
+        2050,
+        2030
+      ]
+    },
+    "text": {
+      "box": [
+        800,
+        1510,
+        1700,
+        1790
+      ],
+      "context": [
+        450,
+        1400,
+        2050,
+        2030
+      ]
+    },
+    "cloth": {
+      "box": [
+        2700,
+        1550,
+        3400,
+        1900
+      ],
+      "context": [
+        2300,
+        1400,
+        3700,
+        2150
+      ]
+    }
+  },
+  "summary": {
+    "palm_light": {
+      "off_mean": 159.4134979248047,
+      "enhanced_mean": 159.83843994140625,
+      "temporal_raw": {
+        "off": 2.70535945892334,
+        "enhanced": 1.759400486946106,
+        "reduction_pct": 34.96611028368481,
+        "snr_gain_same_signal_db": 3.7372053959877,
+        "snr_gain_mean_normalized_db": 3.7603282102969358
+      },
+      "temporal_plane_corrected": {
+        "off": 2.496273400772162,
+        "enhanced": 1.4473944675193098,
+        "reduction_pct": 42.01779071669021,
+        "snr_gain_same_signal_db": 4.734104816781256,
+        "snr_gain_mean_normalized_db": 4.757227631090492
+      },
+      "temporal_hp2": {
+        "off": 1.7031745910644531,
+        "enhanced": 0.9791099429130554,
+        "reduction_pct": 42.512649727757534,
+        "snr_gain_same_signal_db": 4.808554171023418,
+        "snr_gain_mean_normalized_db": 4.831676985332653
+      }
+    },
+    "palm_mid": {
+      "off_mean": 82.53411865234375,
+      "enhanced_mean": 83.22872161865234,
+      "temporal_raw": {
+        "off": 3.357240915298462,
+        "enhanced": 1.9681698083877563,
+        "reduction_pct": 41.375377637658026,
+        "snr_gain_same_signal_db": 4.638398836574911,
+        "snr_gain_mean_normalized_db": 4.711192956302205
+      },
+      "temporal_plane_corrected": {
+        "off": 3.19605527167856,
+        "enhanced": 1.6760958411037241,
+        "reduction_pct": 47.557357472624595,
+        "snr_gain_same_signal_db": 5.606308656136818,
+        "snr_gain_mean_normalized_db": 5.679102775864112
+      },
+      "temporal_hp2": {
+        "off": 2.2233567237854004,
+        "enhanced": 1.1326286792755127,
+        "reduction_pct": 49.0577167775784,
+        "snr_gain_same_signal_db": 5.858431878976585,
+        "snr_gain_mean_normalized_db": 5.931225998703878
+      }
+    },
+    "touchpad_dark": {
+      "off_mean": 39.755653381347656,
+      "enhanced_mean": 40.440467834472656,
+      "temporal_raw": {
+        "off": 2.6834161281585693,
+        "enhanced": 1.2776802778244019,
+        "reduction_pct": 52.386055058065864,
+        "snr_gain_same_signal_db": 6.445316691645213,
+        "snr_gain_mean_normalized_db": 6.5936622040588935
+      },
+      "temporal_plane_corrected": {
+        "off": 2.6450640315451444,
+        "enhanced": 1.1560046372148012,
+        "reduction_pct": 56.295778724891285,
+        "snr_gain_same_signal_db": 7.189532272972434,
+        "snr_gain_mean_normalized_db": 7.337877785386118
+      },
+      "temporal_hp2": {
+        "off": 1.8037879467010498,
+        "enhanced": 0.7968891859054565,
+        "reduction_pct": 55.82134876979923,
+        "snr_gain_same_signal_db": 7.095750944584895,
+        "snr_gain_mean_normalized_db": 7.2440964569985775
+      }
+    },
+    "speaker_plain": {
+      "off_mean": 196.155517578125,
+      "enhanced_mean": 194.85960388183594,
+      "temporal_raw": {
+        "off": 2.471022605895996,
+        "enhanced": 2.6340975761413574,
+        "reduction_pct": -6.599493256607825,
+        "snr_gain_same_signal_db": -0.5551028036831047,
+        "snr_gain_mean_normalized_db": -0.6126770709782571
+      },
+      "temporal_plane_corrected": {
+        "off": 2.2367619296081975,
+        "enhanced": 2.4735507507140726,
+        "reduction_pct": -10.586232623663804,
+        "snr_gain_same_signal_db": -0.8740212613012799,
+        "snr_gain_mean_normalized_db": -0.9315955285964326
+      },
+      "temporal_hp2": {
+        "off": 1.497602939605713,
+        "enhanced": 1.9611848592758179,
+        "reduction_pct": -30.954928533470706,
+        "snr_gain_same_signal_db": -2.3424369578003073,
+        "snr_gain_mean_normalized_db": -2.4000112250954606
+      }
+    }
+  },
+  "limitations": [
+    "No per-frame request/result log for this sample batch",
+    "No calibrated dynamic-range target",
+    "No focus lock evidence",
+    "Output fluctuation is not sensor noise",
+    "Haar-MAD values hit JPEG quantization floor; do not use their percentage reductions"
+  ]
+}
