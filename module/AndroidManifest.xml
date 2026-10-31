@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tyh212u.gcamhook"
+    android:versionCode="1"
+    android:versionName="0.1.0-alpha.1">
+
+    <uses-sdk android:minSdkVersion="30" android:targetSdkVersion="30" />
+
+    <application
+        android:label="GCam TYH212U Hook"
+        android:allowBackup="false"
+        android:hasCode="true">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Experimental TYH212U/ARES Android 11 profile for BSG 9.6 V51. YUV compatibility research; not a universal Unisoc port." />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="93" />
+
+    </application>
+</manifest>
